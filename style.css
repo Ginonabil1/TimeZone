@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 15px 30px;
+    box-shadow: 0px 10px 15px rgba(151, 150, 150, 0.24);
+}
+.nav-link {
+    color: black;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.nav-link:hover {
+    background-color: rgb(247, 54, 20);
+    font-size: 18px;
+}
+header {
+    background-color: rgb(240,240,242);
+    width: 100%;
+}
+header .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: rgb(17, 8, 65);
+}
+header p {
+    padding: 30px 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(33, 32, 37);
+    font-weight: 400;
+}
+.shop-now {
+    text-decoration: none;
+    background-color: rgb(74,74,75);
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.shop-now {
+    background: linear-gradient(to left , #4a4a4b , #4a4a4b) no-repeat;
+    background-size: 0%;
+    background-color: #ff2020;
+    border: none;
+    transition: all 0.5s ease;
+}
+.shop-now:hover {
+    background-size: 100%;
+    color: white;
+}
+header img {
+    padding-left: 80px;
+    width: 90%;
+}
+.sec1 {
+    padding: 40px 0;
+}
+.sec1 .container h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    font-style:italic;
+    font-family: fantasy;
+}
+.sec1 .zoom {
+    overflow: hidden;
+}
+.sec1 .zoom img {
+    width: 100%;
+    transition: transform 0.7s ease; 
+}
+.sec1 .zoom img:hover {
+    transform: scale(1.2);
+}
+.sec1 .text {
+    text-align: center;
+    padding: 10px 0;
+}
+.sec1 .text a {
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 24px;
+    font-weight: 800;
+}
+.sec1 .text p {
+    padding: 15px 0;
+    color: #ff2020;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sec2 {
+    padding: 0;
+    overflow: hidden;
+}
+.sec2 .photo {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.sec2 .img {
+    transform: scale(1.06);
+    transition: all 0.5s ease;
+}
+.sec2 .img:hover {
+    transform: scale(1);
+    filter: brightness(0.6);
+}
+.sec3 {
+    padding: 30px 0 ;
+}
+.sec3 .titre {
+    text-align: center;
+}
+
+.sec3 .titre h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    font-style: italic;
+}
+.sec3 .titre p {
+    color: #686868e3;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 90px;
+}
+.sec3 .box {
+    margin-top: 35px;
+}
+.sec3 .watch {
+    position: relative;
+    border-bottom: 3px solid red;
+}
+.sec3 .watch .big-img {
+    width: 100%;
+}
+.sec3 .watch i {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+}
+.sec3 .watch a {
+    text-decoration: none;
+    background-color:red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.sec3 .watch a {
+    opacity: 0;
+}
+.sec3 .watch i {
+    opacity: 0;
+}
+.sec3 .watch:hover a {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.sec3 .watch:hover i {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.sec3 .text {
+    text-align: center;
+    padding: 10px 0;
+}
+.sec3 .text a {
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 24px;
+    font-weight: 800;
+}
+.sec3 .text p {
+    padding: 15px 0;
+    color: #ff2020;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sec4 {
+    margin: 30px 0;
+    width: 100%;
+}
+.sec4 .row {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.sec4 .row h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.sec4 .row p {
+    font-size: 18px;
+    color: #777;
+    padding: 30px 0;
+}
+.sec4 .row .show-watches {
+    text-decoration: none;
+    background-color: #ff2020;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.last-sec .container {
+    background-color: red;
+    padding: 10px 30px 0 30px;
+}
+.last-sec .row i {
+    font-size: 40px;
+    color: white;
+    margin: 25px 0;
+}
+.last-sec .row h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.last-sec .row p {
+    color: rgb(218, 214, 214);
+    font-size: 18px;
+    padding-top: 10px;
+}
+footer {
+    margin-top: 150px;
+}
+footer .container .row p {
+    padding: 40px 0;
+    color: #868c98;
+}
+footer .container .row h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 27px;
+}
+footer .container .row ul {
+    list-style: none;
+}
+footer .container .row li {
+    padding: 5px 0;
+}
+footer .container .row li a {
+    text-decoration: none;
+    color: #797e8a;
+    font-weight: 400;
+    font-size: 18px;
+}
+footer .container .row li a:hover {
+    color: #ff2020;
+    padding-left: 10px;
+    transition: all 0.5s ease;
+}
+footer .end {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .end p {
+    color: #474747;
+    font-weight: 400;
+    font-size: 17px;
+}
+footer .end span {
+    color: orangered;
+    font-weight: bold;
+}
+footer .end .icons {
+    padding-left: 100px;
+}
+footer .end .icons i {
+    padding: 0 10px;
+}
+footer .end .icons i:hover {
+    color: orangered;
+    transform: rotateY(180deg);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 575px){
+    header .container .row {
+        padding: 50px 0px;
+    }
+    header .container .row h1 {
+    font-size: 35px;
+    }
+    header .container .row img {
+        display: none;
+    }
+
+    .sec3 .heading h2{
+        font-size: 33px;
+    }
+    .sec4 .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sec4 .text h2{
+        font-size: 30px;
+    }
+    .sec4 img{
+        padding: 30px 0px;
+    }
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    header .container .row h1 {
+    font-size: 35px;
+    }
+    header .container .row img {
+        height:400px ;
+    }
+    .sec1 .row a{
+        font-size: 17px;
+    }
+    .sec3 .box .text a{
+        font-size: 17px;
+    }
+    .sec4 .row{
+        padding: 0px;
+        margin: 0px;
+    }
+    .sec4 .row h2{
+        font-size: 30px;
+    }
+    .sec4 img{
+        padding: 30px 0px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    header .container .row h1 {
+        font-size: 50px;
+    }
+    header .container .row img {
+        height:500px ;
+    }
+    .sec1 .container .row a{
+        font-size: 17px;
+    }
+    
+    .sec4 .row h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .sec4 .row p{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    header .container .row h1 {
+        font-size: 60px;
+    }
+    header .container .row img {
+        height:500px ;
+    }
+    .sec4 .row h2{
+        font-size: 43px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1550px){
+.last-sec .container .row p{
+
+    width: 70%;
+}
+}
+    
+
+
+
+
+
